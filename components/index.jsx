@@ -8,6 +8,8 @@ import Advise from "./Advise";
 import AdviseCard from "./Advise-card";
 import Process from "./Process";
 import Offer from "./Offer";
+import FAQ from "./FAQ";
+import LastCTA from "./LastCTA";
 
 export {
   Button,
@@ -20,4 +22,6 @@ export {
   AdviseCard,
   Process,
   Offer,
+  FAQ,
+  LastCTA,
 };
