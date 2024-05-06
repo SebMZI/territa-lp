@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "Hero",
         "Features",
-        "Advise"
+        "Advise",
+        "Offer"
     ]
 }

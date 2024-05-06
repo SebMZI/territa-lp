@@ -6,6 +6,8 @@ import BenefitCard from "./Benefit-card";
 import Features from "./Features";
 import Advise from "./Advise";
 import AdviseCard from "./Advise-card";
+import Process from "./Process";
+import Offer from "./Offer";
 
 export {
   Button,
@@ -16,4 +18,6 @@ export {
   Features,
   Advise,
   AdviseCard,
+  Process,
+  Offer,
 };

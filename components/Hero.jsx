@@ -18,7 +18,7 @@ const Hero = () => {
       </p>
 
       <ul className="mt-7 flex flex-col gap-3 mb-7">
-        <li className="flex flex-row gap-5">
+        <li className="flex flex-row gap-5 items-center">
           <Image
             src={"/images/green-check.png"}
             width={25}
@@ -28,7 +28,7 @@ const Hero = () => {
           />
           <p className="font-medium">Livré en moins de 1 semaine</p>
         </li>
-        <li className="flex flex-row gap-5">
+        <li className="flex flex-row gap-5 items-center">
           <Image
             src={"/images/green-check.png"}
             width={25}
@@ -38,7 +38,7 @@ const Hero = () => {
           />
           <p className="font-medium">100% Personnalisé</p>
         </li>
-        <li className="flex flex-row gap-5">
+        <li className="flex flex-row gap-5 items-center">
           <Image
             src={"/images/green-check.png"}
             width={25}
