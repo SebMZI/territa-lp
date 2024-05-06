@@ -70,7 +70,7 @@ const Hero = () => {
             alt="Capture d'écran de la page de vente : Un écran d'ordinateur affichant une page de vente attrayante."
           />
           <div className="absolute bottom-32 left-0 right-0 h-24 bg-gradient-to-t from-[#FAFAFA] to-[rgba(250,250,250,0)]"></div>
-          <div className="absolute bottom-14 left-0 right-0 bg-[#FAFAFA] h-[78px]"></div>
+          <div className="absolute bottom-0 left-0 right-0 bg-[#FAFAFA] h-32"></div>
         </div>
       </div>
     </section>
