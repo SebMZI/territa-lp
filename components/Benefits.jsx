@@ -10,7 +10,7 @@ const Benefits = () => {
       <div className="flex flex-col gap-16 mt-7">
         <BenefitCard
           img={"/images/benefits/benefits-1.svg"}
-          title={"Personnalisé"}
+          title={"Personnalisation"}
           text={
             "Une page de vente codé sur-mesure de A à Z, conçu pour maximiser tes conversions."
           }

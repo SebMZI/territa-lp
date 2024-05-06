@@ -54,22 +54,24 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative">
-        <div className="h-[44px] w-[99px] text-center absolute top-7 left-7 bg-white rounded-[10px]">
+        <div className="h-[44px] w-[99px] text-center absolute top-7 left-7 bg-white rounded-[10px] z-10">
           <h2 className="text-lg text-ascent">+ 10%</h2>
           <p className="text-[8px]">taux de conversion</p>
         </div>
-        <div className="h-[44px] w-[99px] text-center absolute top-20 right-7 bg-white rounded-[10px]">
+        <div className="h-[44px] w-[99px] text-center absolute top-20 right-7 bg-white rounded-[10px] z-10">
           <h2 className="text-lg text-ascent">3 écrans</h2>
           <p className="text-[8px]">responsive</p>
         </div>
-        <Image
-          src={"/images/laptop.svg"}
-          width={944}
-          height={582}
-          alt="Capture d'écran de la page de vente : Un écran d'ordinateur affichant une page de vente attrayante"
-        />
-        <div className="absolute bottom-32 left-0 right-0 h-24 bg-gradient-to-t from-[#FAFAFA] to-[rgba(250,250,250,0)]"></div>
-        <div className="absolute bottom-14 left-0 right-0 bg-[#FAFAFA] h-[78px]"></div>
+        <div className="relative">
+          <Image
+            src={"/images/laptop.svg"}
+            width={944}
+            height={582}
+            alt="Capture d'écran de la page de vente : Un écran d'ordinateur affichant une page de vente attrayante"
+          />
+          <div className="absolute bottom-32 left-0 right-0 h-24 bg-gradient-to-t from-[#FAFAFA] to-[rgba(250,250,250,0)]"></div>
+          <div className="absolute bottom-14 left-0 right-0 bg-[#FAFAFA] h-[78px]"></div>
+        </div>
       </div>
     </section>
   );
