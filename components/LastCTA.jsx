@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const LastCTA = () => {
   return (
-    <section className="flex flex-col items-center gap-5">
+    <section className="flex flex-col items-center gap-5 mt-20">
       <h2 className="text-center text-3xl font-bold">
         Prêt à convertir tes visiteurs en clients ?
       </h2>
