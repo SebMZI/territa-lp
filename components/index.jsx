@@ -10,6 +10,7 @@ import Process from "./Process";
 import Offer from "./Offer";
 import FAQ from "./FAQ";
 import LastCTA from "./LastCTA";
+import Footer from "./Footer";
 
 export {
   Button,
@@ -24,4 +25,5 @@ export {
   Offer,
   FAQ,
   LastCTA,
+  Footer,
 };
