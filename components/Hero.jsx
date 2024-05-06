@@ -23,6 +23,7 @@ const Hero = () => {
             src={"/images/green-check.png"}
             width={25}
             height={25}
+            className="w-[25px] h-[25px]"
             alt="Icône de validation : Un check vert symbolisant une liste de bénéfices"
           />
           <p className="font-medium">Livré en moins de 1 semaine</p>
@@ -32,6 +33,7 @@ const Hero = () => {
             src={"/images/green-check.png"}
             width={25}
             height={25}
+            className="w-[25px] h-[25px]"
             alt="Icône de validation : Un check vert symbolisant une liste de bénéfices"
           />
           <p className="font-medium">100% Personnalisé</p>
@@ -41,12 +43,13 @@ const Hero = () => {
             src={"/images/green-check.png"}
             width={25}
             height={25}
+            className="w-[25px] h-[25px]"
             alt="Icône de validation : Un check vert symbolisant une liste de bénéfices"
           />
           <p className="font-medium">Modifications à l'infini</p>
         </li>
       </ul>
-      <Button containerStyle={"w-full "} />
+      <Button containerStyle={"w-full text-sm h-[45px]"} />
       <div className="flex flex-row justify-center gap-2 mt-3">
         <Rating name="text-feedback" value={5} readOnly precision={0.5} />
         <span className="font-medium">-</span>

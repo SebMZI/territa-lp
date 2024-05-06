@@ -1,4 +1,4 @@
-import { Benefits, Button, Header, Hero } from "@/components";
+import { Benefits, Button, Features, Header, Hero } from "@/components";
 import Image from "next/image";
 
 // flex min-h-screen flex-col items-center justify-between p-24
@@ -9,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero/>
       <Benefits/>
+      <Features/>
     </main>
   );
 }
