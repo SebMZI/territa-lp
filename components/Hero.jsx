@@ -69,8 +69,8 @@ const Hero = () => {
             height={582}
             alt="Capture d'écran de la page de vente : Un écran d'ordinateur affichant une page de vente attrayante."
           />
-          <div className="absolute bottom-24 left-0 right-0 h-24 bg-gradient-to-t from-[#FAFAFA] to-[rgba(250,250,250,0)]"></div>
-          <div className="absolute bottom-0 left-0 right-0 bg-[#FAFAFA] h-24"></div>
+          <div className="absolute bottom-16 left-0 right-0 h-24 bg-gradient-to-t from-[#FAFAFA] to-[rgba(250,250,250,0)]"></div>
+          <div className="absolute bottom-0 left-0 right-0 bg-[#FAFAFA] h-16"></div>
         </div>
       </div>
     </section>
