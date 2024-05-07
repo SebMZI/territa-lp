@@ -11,15 +11,17 @@ const Question = ({ question, answer }) => {
         <div className="bg-[#EE7519] min-w-6 min-h-6 rounded-full grid place-content-center relative cursor-pointer">
           <div className="h-[2px] w-4 bg-white rounded-lg relative "></div>
           <div
-            className={`h-4 w-[2px] bg-white rounded-lg absolute left-[45%] top-[15%] transition-all duration-500 ${
+            className={`h-4 w-[2px] bg-white rounded-lg absolute left-[45%] top-[15%] transition-all duration-500 ease-in-out ${
               isOpen ? "rotate-90" : "rotate-0"
             } `}
           ></div>
         </div>
       </div>
       <div
-        className={`mt-3 relative transition-all ${
-          isOpen ? "visible bottom-0 opacity-100" : "hidden bottom-5 opacity-0"
+        className={`mt-3 relative transition-all duration-500 ease-in-out ${
+          isOpen
+            ? "bottom-0 opacity-100 h-full max-h-80"
+            : "bottom-0  opacity-0 h-full max-h-0"
         }`}
       >
         {answer}
