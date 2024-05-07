@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Features = () => {
   return (
-    <section className="mt-16 w-full">
+    <section className="mt-20 w-full">
       <article>
         <div className="mb-14">
           <span>Template</span>

@@ -2,12 +2,12 @@ import React from "react";
 
 const Process = () => {
   return (
-    <section className="w-full">
+    <section className="w-full mt-20">
       <h2 className="text-center font-bold text-2xl">
         Comment se passe la création de ta page ?
       </h2>
       {/* Container */}
-      <div className="mt-32 ">
+      <div className="mt-20 ">
         {/* 1. */}
         <div className="grid grid-cols-3 h-[310px] place-content-center">
           <div className=" flex justify-center items-center">

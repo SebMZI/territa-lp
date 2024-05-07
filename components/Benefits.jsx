@@ -3,8 +3,8 @@ import { BenefitCard } from ".";
 
 const Benefits = () => {
   return (
-    <section>
-      <h2 className="font-bold text-2xl text-center relative -top-5">
+    <section className="w-full mt-20">
+      <h2 className="font-bold text-2xl text-center pb-10">
         Ce que tu obtiens avec nos services
       </h2>
       <div className="flex flex-col gap-16 mt-7">

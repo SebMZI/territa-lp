@@ -4,7 +4,7 @@ import { AdviseCard } from ".";
 
 const Advise = () => {
   return (
-    <section className="w-full">
+    <section className="w-full mt-20">
       <div className="bg-[#F5F5F5] px-3.5 pt-10 pb-20 rounded-[10px]">
         <h2 className="text-2xl font-bold">
           Les indépendants sont satisfaits de leur page de vente
