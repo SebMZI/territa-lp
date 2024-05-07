@@ -1,9 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Navbar } from ".";
 
 const Header = () => {
   return (
-    <header className="w-full flex flex-row items-center justify-between py-2">
+    <header className="flex flex-row justify-between items-center py-2 max-w-[1440px] m-auto w-full">
       <Image
         src={"/images/logo.png"}
         width={145}
@@ -11,23 +12,7 @@ const Header = () => {
         className="relative -left-[22px]"
         alt="Logo Territa : Un design épuré et élégant pour la marque Territa, spécialisée dans la création de pages de vente, offrant une identité visuelle distinctive et moderne."
       />
-      <Image src={"/images/menu-icon.svg"} width={20} height={14} alt="Icône de menu : Trois lignes horizontales représentant le menu de navigation, idéal pour une expérience conviviale sur mobile."/>
-      {/* <nav>
-        <ul className="flex flex-row gap-[50px]">
-          <li>
-            <Link href={""}>Accueil</Link>
-          </li>
-          <li>
-            <Link href={""}>Bénéfices</Link>
-          </li>
-          <li>
-            <Link href={""}>Offres</Link>
-          </li>
-          <li>
-            <Link href={""}>FAQ</Link>
-          </li>
-        </ul>
-      </nav> */}
+      <Navbar />
     </header>
   );
 };

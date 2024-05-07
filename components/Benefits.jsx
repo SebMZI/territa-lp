@@ -3,7 +3,7 @@ import { BenefitCard } from ".";
 
 const Benefits = () => {
   return (
-    <section className="w-full mt-20">
+    <section className="w-full mt-20" id="benefits">
       <h2 className="font-bold text-2xl text-center pb-10">
         Ce que tu obtiens avec nos services
       </h2>

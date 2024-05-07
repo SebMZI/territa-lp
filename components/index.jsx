@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Header from "./Header";
+import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Benefits from "./Benefits";
 import BenefitCard from "./Benefit-card";
@@ -16,6 +17,7 @@ import Footer from "./Footer";
 export {
   Button,
   Header,
+  Navbar,
   Hero,
   Benefits,
   BenefitCard,
