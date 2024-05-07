@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 const Question = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,15 +8,14 @@ const Question = ({ question, answer }) => {
     <article onClick={() => setIsOpen(!isOpen)}>
       <div className="flex flex-row gap-20 items-center justify-between">
         <h3 className="font-semibold">{question}</h3>
-        <Image
-          src={"/images/arrow.png"}
-          width={15}
-          height={15}
-          alt=""
-          className={`w-4 h-4 transition-all ${
-            isOpen ? "rotate-180" : "rotate-0"
-          }`}
-        />
+        <div className="bg-[#EE7519] w-6 h-6 rounded-full grid place-content-center relative cursor-pointer">
+          <div className="h-[2px] w-4 bg-white rounded-lg absolute top-[45%] left-[15%]"></div>
+          <div
+            className={`h-4 w-[2px] bg-white rounded-lg absolute left-[45%] top-[15%] transition-all duration-500 ${
+              isOpen ? "rotate-90" : "rotate-0"
+            } `}
+          ></div>
+        </div>
       </div>
       <div
         className={`mt-3 relative transition-all ${

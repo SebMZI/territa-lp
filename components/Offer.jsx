@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Offer = () => {
   return (
-    <section>
+    <section className="w-full mt-20">
       <h2 className="font-bold text-2xl text-center mb-10">
         Fais passer ton business au niveau supérieur
       </h2>
