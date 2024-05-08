@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className=" h-full max-w-screen-xl m-auto flex flex-col items-center px-7 bg-[#FAFAFA] ">
+    <main className=" h-full max-w-screen-xl m-auto flex flex-col items-center px-7  ">
       <Header />
       <Hero/>
       <Benefits/>
