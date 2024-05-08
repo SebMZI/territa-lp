@@ -60,12 +60,12 @@ const Process = () => {
             <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Conception
             </h3>
-            <p className="md:text-lg  text-sm">
+            <p className="md:text-lg  text-sm mb-2">
               Après notre rendez-vous, je me mets à travailler sur le design,
               une fois terminé je t’ envoie la maquette pour validation.
-              <br />
-              <br /> Une fois validé, je commence la conception de ta page de
-              vente.
+            </p>
+            <p className="md:text-lg  text-sm">
+              Une fois validé, je commence la conception de ta page de vente.
             </p>
           </div>
         </div>
@@ -81,11 +81,12 @@ const Process = () => {
             <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Mise en ligne
             </h3>
-            <p className="md:text-lg  text-sm">
+            <p className="md:text-lg  text-sm mb-2">
               Ta page de vente est mise en ligne immédiatement après validation
               de ta part sur le nom de domaine de ton choix.
-              <br />
-              <br /> Et c’est parti pour convertir !
+            </p>
+            <p className="md:text-lg  text-sm">
+              Et c’est parti pour convertir !
             </p>
           </div>
         </div>
