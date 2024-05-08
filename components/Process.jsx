@@ -3,7 +3,7 @@ import React from "react";
 const Process = () => {
   return (
     <section className="w-full mt-20">
-      <h2 className="text-center font-bold text-2xl">
+      <h2 className="text-center font-bold text-2xl md:text-3xl md:w-2/4 md:m-auto">
         Comment se passe la création de ta page ?
       </h2>
       {/* Container */}
@@ -16,9 +16,11 @@ const Process = () => {
               <span className="text-4xl text-ascent">1.</span>
             </div>
           </div>
-          <div className="col-start-2 col-end-4">
-            <h3 className="font-medium w-full text-xl">Prise de rendez-vous</h3>
-            <p className="">
+          <div className="col-start-2 col-end-4 md:w-3/4">
+            <h3 className="font-medium w-full text-xl md:text-2xl">
+              Prise de rendez-vous
+            </h3>
+            <p className="md:text-lg">
               Le rendez-vous est optionnel mais recommandé, il s’agit d’un
               moment d’échange pour mieux comprendre tes besoins et te rassurer
               pour délivré la meilleure page de vente possible.
@@ -33,9 +35,11 @@ const Process = () => {
               <span className="text-4xl text-ascent">2.</span>
             </div>
           </div>
-          <div className="col-start-2 col-end-4">
-            <h3 className="font-medium w-full text-xl">Conception</h3>
-            <p className="">
+          <div className="col-start-2 col-end-4 md:w-3/4">
+            <h3 className="font-medium w-full text-xl md:text-2xl">
+              Conception
+            </h3>
+            <p className="md:text-lg">
               Après notre rendez-vous, je me mets à travailler sur le design,
               une fois terminé je t’ envoie la maquette pour validation.
               <br />
@@ -52,9 +56,11 @@ const Process = () => {
               <span className="text-4xl text-ascent">3.</span>
             </div>
           </div>
-          <div className="col-start-2 col-end-4">
-            <h3 className="font-medium w-full text-xl">Mise en ligne</h3>
-            <p className="">
+          <div className="col-start-2 col-end-4 md:w-3/4">
+            <h3 className="font-medium w-full text-xl md:text-2xl">
+              Mise en ligne
+            </h3>
+            <p className="md:text-lg">
               Ta page de vente est mise en ligne immédiatement après validation
               de ta part sur le nom de domaine de ton choix.
               <br />
