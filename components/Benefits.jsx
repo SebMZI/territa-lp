@@ -4,10 +4,10 @@ import { BenefitCard } from ".";
 const Benefits = () => {
   return (
     <section className="w-full mt-20" id="benefits">
-      <h2 className="font-bold text-2xl text-center pb-10 md:text-3xl md:w-2/4 md:m-auto ">
+      <h2 className="font-bold text-2xl text-center pb-10 md:text-3xl md:w-2/4 md:m-auto md: ">
         Ce que tu obtiens avec nos services
       </h2>
-      <div className="flex flex-col gap-16 mt-7 md:flex-row md:flex-wrap md:justify-center md:items-center ">
+      <div className="flex flex-col gap-16 md:gap-8 mt-7 md:flex-row md:flex-wrap md:justify-center md:items-center ">
         <BenefitCard
           img={"/images/benefits/benefits-1.svg"}
           title={"Personnalisation"}
