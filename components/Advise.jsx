@@ -28,7 +28,7 @@ const Advise = () => {
           text={
             "[...] a créé un site web parfait pour mon entreprise, en répondant rapidement à mes besoins et en étant très professionnel."
           }
-          containerStyle={"relative -top-10"}
+          containerStyle={"lg:relative lg:-top-8 "}
         />
         <AdviseCard
           rating={5}
@@ -36,7 +36,7 @@ const Advise = () => {
           text={
             "Il a su contribuer à mes projets en proposant des idées pertinentes."
           }
-          containerStyle={"relative top-10"}
+          containerStyle={"lg:relative lg:top-6"}
         />
         <AdviseCard
           rating={5}

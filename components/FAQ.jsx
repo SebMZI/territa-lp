@@ -4,10 +4,10 @@ import { Question } from ".";
 const FAQ = () => {
   return (
     <section className="w-full mt-20" id="faq">
-      <h2 className="font-bold text-2xl text-center mb-16">
+      <h2 className="font-bold text-2xl text-center mb-16 lg:text-5xl">
         Encore des questions ?
       </h2>
-      <div className="flex flex-col gap-6 ">
+      <div className="flex flex-col gap-6 lg:px-28 lg:gap-8">
         <Question
           question="Combien de temps vous faut-il pour créer ma page de vente ?"
           answer="Le design peut prendre jusqu'à 1 semaine, suivi d'environ d'1 semaine pour la réalisation."

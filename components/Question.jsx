@@ -8,19 +8,19 @@ const Question = ({ question, answer }) => {
     <article onClick={() => setIsOpen(!isOpen)} className="">
       <div className="flex flex-row gap-20 items-center justify-between ">
         <h3 className="font-semibold md:text-lg">{question}</h3>
-        <div className="bg-[#EE7519] min-w-6 min-h-6 rounded-full grid place-content-center relative cursor-pointer">
-          <div className="h-[2px] w-4 bg-white rounded-lg relative "></div>
+        <div className="bg-[#EE7519] min-w-6 min-h-6 rounded-full flex justify-center items-center relative cursor-pointer">
+          <div className="h-[2px] w-4 bg-white rounded-lg  absolute "></div>
           <div
-            className={`h-4 w-[2px] bg-white rounded-lg absolute left-[45%] top-[15%] transition-all duration-500 ease-in-out ${
+            className={`h-4 w-[2px] bg-white rounded-lg absolute  transition-all duration-500 ease-in-out  ${
               isOpen ? "rotate-90" : "rotate-0"
             } `}
           ></div>
         </div>
       </div>
       <div
-        className={`mt-3 relative transition-all duration-500 ease-in-out ${
+        className={`mt-3 relative transition-all duration-500 ease-in-out w-3/4 ${
           isOpen
-            ? "bottom-0 opacity-100 h-full max-h-80"
+            ? "bottom-0 opacity-100 h-full max-h-80 "
             : "bottom-0  opacity-0 h-full max-h-0"
         }`}
       >
