@@ -37,7 +37,7 @@ const Process = () => {
             </div>
           </div>
           <div className="lg:col-start-1 lg:order-1">
-            <h3 className="font-medium w-full text-lg md:text-2xl">
+            <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Prise de rendez-vous
             </h3>
             <p className="md:text-lg text-sm ">
@@ -57,7 +57,7 @@ const Process = () => {
           </div>
 
           <div className="lg:col-start-3">
-            <h3 className="font-medium w-full text-lg md:text-2xl">
+            <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Conception
             </h3>
             <p className="md:text-lg  text-sm">
@@ -78,7 +78,7 @@ const Process = () => {
             </div>
           </div>
           <div className="lg:col-start-1 lg:order-1">
-            <h3 className="font-medium w-full text-lg md:text-2xl">
+            <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Mise en ligne
             </h3>
             <p className="md:text-lg  text-sm">
