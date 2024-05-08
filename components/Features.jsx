@@ -4,15 +4,15 @@ import Button from "./Button";
 
 const Features = () => {
   return (
-    <section className="mt-20 w-full">
+    <section className="mt-20 w-full lg:mb-20">
       <article className="md:grid md:grid-cols-2 md:gap-8">
-        <div className="md:flex md:flex-col md:justify-between">
-          <div className="mb-14 md:mb-auto">
+        <div className="md:flex md:flex-col md:justify-between lg:justify-start">
+          <div className="mb-14 md:mb-auto lg:mb-14">
             <span>Template</span>
-            <h2 className="text-2xl font-bold mt-2.5">
+            <h2 className="text-2xl font-bold mt-2.5 lg:text-5xl">
               Fini les templates, place au sur-mesure
             </h2>
-            <p className="mt-5 md:mt-2">
+            <p className="mt-5 md:mt-2 lg:text-lg">
               Marre de voir tout le temps les mêmes pages de vente issues de
               templates ? Nous garantissons une page 100% personnalisée à tes
               besoins. Et tu ne sera pas comme tout le monde!
@@ -73,14 +73,14 @@ const Features = () => {
           className="md:h-full md:object-cover md:w-full max-h-[557px]"
         />
       </article>
-      <article className="mt-20 md:grid md:grid-cols-2 md:gap-8">
-        <div>
+      <article className="mt-20 md:grid md:grid-cols-2 md:gap-8 lg:mt-28">
+        <div className="order-2">
           <div className="mb-14">
             <span>Responsive</span>
-            <h2 className="text-2xl font-bold mt-2.5">
+            <h2 className="text-2xl font-bold mt-2.5 lg:text-5xl">
               Ta page sur tous les types d’écrans
             </h2>
-            <p className="mt-5">
+            <p className="mt-5 lg:text-lg">
               Nombreuses sont les pages qui ne sont pas adaptées à tous les
               formats, et il s’agit là d’une erreur importante. Maximises tes
               opportunités de conversion en capturant efficacement l'attention
