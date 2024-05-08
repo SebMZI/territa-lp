@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'btn': 'inset 0 5px 5.3px 0 rgba(255,255,255,0.34), 0 4px 4px 0 rgba(0,0,0,0.25)',
+        'btn': '2.9px 4px 4px 0px rgba(0, 0, 0, 0.25), -2.94px -4.9px 5.71px 0px #CB5B05 inset, 2.94px 4.9px 5.71px 0px #ECAB79 inset',
+        "btnHover" : "-2.942px -4.896px 5.712px 0px #E06303 inset, 2.942px 4.896px 5.712px 0px #F9BB8C inset"
       },
       colors: {
         "primary": "FAFAFA",

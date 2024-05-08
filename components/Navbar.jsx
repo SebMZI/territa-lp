@@ -8,7 +8,9 @@ const Navbar = () => {
   return (
     <nav className={`z-40 `}>
       <button
-        className={`z-50 relative top-0 right-0 `}
+        className={`z-50   ${
+          isOpen ? "fixed right-[30px] top-[30px]" : "relative top-0 right-0"
+        }`}
         onClick={() => setIsOpen(!isOpen)}
       >
         <div

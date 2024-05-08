@@ -9,7 +9,7 @@ const Hero = () => {
       <span className="uppercase text-xs bg-[#F9D2B4] rounded-[10px] w-full text-center py-1 font-medium inline-block">
         pages de vente sur-mesure pour les indépendants
       </span>
-      <h1 className="font-bold text-center text-[28px] leading-9 mt-5">
+      <h1 className="font-bold text-center text-[28px] leading-9 mt-4 mb-3">
         <span className="text-ascent">Augmente tes conversions</span> grâce à
         une page de vente authentique et personnalisée
       </h1>
