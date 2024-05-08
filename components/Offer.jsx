@@ -4,12 +4,12 @@ import Button from "./Button";
 
 const Offer = () => {
   return (
-    <section className="w-full mt-20" id="offer">
-      <h2 className="font-bold text-2xl text-center mb-10">
+    <section className="w-full mt-28" id="offer">
+      <h2 className="font-bold text-2xl text-center mb-10 md:mb-10 md:w-2/4 md:m-auto">
         Fais passer ton business au niveau supérieur
       </h2>
 
-      <article className="bg-white shadow-[0_0_37.8px_0_rgba(0,0,0,0.07)] rounded-[10px] px-5 py-6 flex flex-col">
+      <article className="bg-white shadow-[0_0_37.8px_0_rgba(0,0,0,0.07)] rounded-[10px] px-5 py-6 flex flex-col max-w-[633px] md:w-full md:m-auto ">
         <span className="font-extralight text-sm">Beta Test</span>
         <span className="text-xl font-medium line-through">900 €</span>
         <div className="flex flex-row items-center gap-5 mb-8">
