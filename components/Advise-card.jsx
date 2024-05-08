@@ -3,7 +3,7 @@ import React from "react";
 
 const AdviseCard = ({ text, rating, name }) => {
   return (
-    <article className="max-w-[320px] md:min-w-[320px]  w-full py-9 px-5 bg-white shadow-[0_0_79.4px_-21px_rgba(0,0,0,0.20)] md:shadow-none rounded-[10px] flex flex-col justify-between h-[345px]">
+    <article className="max-w-[320px] md:min-w-[320px]  w-full py-9 px-5 bg-white shadow-[0_0_79.4px_-21px_rgba(0,0,0,0.20)]   rounded-[10px] flex flex-col justify-between h-[345px]">
       <span>"</span>
       <p className="text-lg">{text}</p>
 
