@@ -65,11 +65,11 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative mt-10">
-        <div className="h-[44px] w-[99px] text-center absolute top-2 md:-top-4 left-0 md:left-7 md:px-4 md:h-auto md:w-auto md:py-1  bg-white rounded-[10px] z-10 flex flex-col items-center justify-center">
+        <div className="shadow-info h-[44px] w-[99px] text-center absolute top-2 md:-top-4 left-0 md:left-7 md:px-4 md:h-auto md:w-auto md:py-1  bg-white rounded-[10px] z-10 flex flex-col items-center justify-center">
           <h2 className="text-lg text-ascent md:text-3xl">+ 10%</h2>
           <p className="text-[8px] md:text-sm">taux de conversion</p>
         </div>
-        <div className="h-[44px] w-[99px] text-center absolute top-6 right-3 md:right-7 md:top-20 bg-white rounded-[10px] z-10 flex flex-col items-center justify-center md:px-8 md:h-auto md:w-auto md:py-1 ">
+        <div className="shadow-info h-[44px] w-[99px] text-center absolute top-6 right-3 md:right-7 md:top-20 bg-white rounded-[10px] z-10 flex flex-col items-center justify-center md:px-8 md:h-auto md:w-auto md:py-1 ">
           <h2 className="text-lg text-ascent md:text-3xl">3 écrans</h2>
           <p className="text-[8px] md:text-sm">responsive</p>
         </div>
