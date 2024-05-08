@@ -33,7 +33,7 @@ const Process = () => {
           <div className=" flex justify-center items-center lg:col-start-2 lg:order-2">
             <div className="h-[300px] w-[2px] md:h-[310px] md:h bg-ascent absolute"></div>
             <div className="w-[50px] md:h-[60px] md:w-[60px] h-[50px] border-[2px] border-ascent rounded-full absolute bg-[#FAFAFA] grid place-content-center">
-              <span className="text-2xl md:text-4xl text-ascent">1.</span>
+              <span className="text-2xl md:text-4xl text-ascent">1</span>
             </div>
           </div>
           <div className="lg:col-start-1 lg:order-1">
@@ -52,7 +52,7 @@ const Process = () => {
           <div className=" flex justify-center items-center lg:col-start-2">
             <div className="h-[300px] md:h-[310px] w-[2px] bg-ascent absolute"></div>
             <div className="w-[50px] h-[50px] md:h-[60px] md:w-[60px] border-[2px] border-ascent rounded-full absolute bg-[#FAFAFA] grid place-content-center">
-              <span className="text-2xl md:text-4xl text-ascent">2.</span>
+              <span className="text-2xl md:text-4xl text-ascent">2</span>
             </div>
           </div>
 
@@ -74,7 +74,7 @@ const Process = () => {
           <div className=" flex justify-center items-center lg:col-start-2 lg:order-2">
             <div className="h-[300px] md:h-[310px] w-[2px] bg-ascent absolute"></div>
             <div className="w-[50px] h-[50px] md:h-[60px] md:w-[60px] border-[2px] border-ascent rounded-full absolute bg-[#FAFAFA] grid place-content-center">
-              <span className="text-2xl md:text-4xl text-ascent">3.</span>
+              <span className="text-2xl md:text-4xl text-ascent">3</span>
             </div>
           </div>
           <div className="lg:col-start-1 lg:order-1">
