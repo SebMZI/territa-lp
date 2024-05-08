@@ -5,8 +5,8 @@ import React, { useRef, useState } from "react";
 const Question = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <article onClick={() => setIsOpen(!isOpen)}>
-      <div className="flex flex-row gap-20 items-center justify-between">
+    <article onClick={() => setIsOpen(!isOpen)} className="">
+      <div className="flex flex-row gap-20 items-center justify-between ">
         <h3 className="font-semibold md:text-lg">{question}</h3>
         <div className="bg-[#EE7519] min-w-6 min-h-6 rounded-full grid place-content-center relative cursor-pointer">
           <div className="h-[2px] w-4 bg-white rounded-lg relative "></div>

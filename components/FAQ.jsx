@@ -7,7 +7,7 @@ const FAQ = () => {
       <h2 className="font-bold text-2xl text-center mb-16">
         Encore des questions ?
       </h2>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 ">
         <Question
           question="Combien de temps vous faut-il pour créer ma page de vente ?"
           answer="Le design peut prendre jusqu'à 1 semaine, suivi d'environ d'1 semaine pour la réalisation."
