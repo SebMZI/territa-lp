@@ -1,4 +1,16 @@
-import { Advise, Benefits, Button, FAQ, Features, Footer, Header, Hero, LastCTA, Offer, Process } from "@/components";
+import {
+  Advise,
+  Benefits,
+  Button,
+  FAQ,
+  Features,
+  Footer,
+  Header,
+  Hero,
+  LastCTA,
+  Offer,
+  Process,
+} from "@/components";
 import Analytics from "@/components/Analytics";
 import Image from "next/image";
 
@@ -6,18 +18,18 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className=" h-full max-w-screen-xl m-auto flex flex-col items-center px-7  ">
+    <main className=" h-full max-w-screen-xl m-auto flex flex-col items-center px-7  overflow-hidden ">
       <Header />
-      <Hero/>
-      <Benefits/>
-      <Features/>
-      <Advise/>
-      <Process/>
-      <Offer/>
-      <FAQ/>
-      <LastCTA/>
-      <Footer/>
-      <Analytics/>
+      <Hero />
+      <Benefits />
+      <Features />
+      <Advise />
+      <Process />
+      <Offer />
+      <FAQ />
+      <LastCTA />
+      <Footer />
+      <Analytics />
     </main>
   );
 }
