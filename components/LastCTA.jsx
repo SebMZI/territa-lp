@@ -4,7 +4,7 @@ import AdviseCard from "./Advise-card";
 
 const LastCTA = () => {
   return (
-    <section className=" mt-20 md:flex md:flex-row md:justify-between md:items-center lg:justify-around ">
+    <section className=" mt-20 md:flex md:flex-row md:justify-between md:items-center lg:justify-around lg:mb-20">
       <div className="flex flex-col items-center gap-5 md:items-start md:w-2/4 lg:gap-10">
         <h2 className="text-center text-3xl font-bold md:text-left md:text-4xl lg:text-5xl">
           Prêt à convertir tes visiteurs en clients ?

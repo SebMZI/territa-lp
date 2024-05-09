@@ -3,8 +3,8 @@ import { Question } from ".";
 
 const FAQ = () => {
   return (
-    <section className="w-full mt-20" id="faq">
-      <h2 className="font-bold text-2xl text-center mb-16 lg:text-5xl">
+    <section className="w-full mt-20 lg:mb-20" id="faq">
+      <h2 className="font-bold text-2xl text-center mb-16 md:text-3xl lg:text-5xl">
         Encore des questions ?
       </h2>
       <div className="flex flex-col gap-6 lg:px-28 lg:gap-8">
@@ -21,7 +21,7 @@ const FAQ = () => {
           answer="Je mets en place Google Analytics, Google Search Console et Microsoft Clarity, pour suivre au mieux le trafic de la page. "
         />
         <Question
-          question="Proposez-vous le paiement en plusieurs fois ?"
+          question="Proposes-tu le paiement en plusieurs fois ?"
           answer="Je ne propose pas de paiement en plusieurs fois, uniquement l'acompte de 30% au début, puis le solde à la livraison."
         />
       </div>

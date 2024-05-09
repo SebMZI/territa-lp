@@ -2,9 +2,9 @@ import React from "react";
 
 const Process = () => {
   return (
-    <section className="w-full mt-20">
-      <h2 className="text-center font-bold text-2xl md:text-3xl md:w-2/4 md:m-auto">
-        Comment se passe la création de ta page ?
+    <section className="w-full mt-20 lg:mb-20">
+      <h2 className="text-center font-bold text-2xl md:text-3xl md:w-2/4 md:m-auto lg:text-5xl">
+        Comment se passe la création de ma page ?
       </h2>
       {/* Container */}
       <div className="mt-20">
