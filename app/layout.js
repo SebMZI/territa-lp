@@ -19,7 +19,7 @@ export const metadata = {
     "page de vente qui convertit",
   ],
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.ico",
   },
   openGraph: {
     title:
