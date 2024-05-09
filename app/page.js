@@ -1,4 +1,5 @@
 import { Advise, Benefits, Button, FAQ, Features, Footer, Header, Hero, LastCTA, Offer, Process } from "@/components";
+import Analytics from "@/components/Analytics";
 import Image from "next/image";
 
 // flex min-h-screen flex-col items-center justify-between p-24
@@ -16,6 +17,7 @@ export default function Home() {
       <FAQ/>
       <LastCTA/>
       <Footer/>
+      <Analytics/>
     </main>
   );
 }
