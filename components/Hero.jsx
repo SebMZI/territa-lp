@@ -1,7 +1,9 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Button from "./Button";
 import { Rating } from "@mui/material";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -66,14 +68,24 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center relative mt-10">
-        <div className="shadow-info h-[44px] w-[99px] text-center absolute top-2 md:-top-4 left-0 md:left-7 md:px-4 md:h-auto md:w-auto md:py-1  bg-white rounded-[10px] z-10 flex flex-col items-center justify-center lg:left-36">
+        <motion.div
+          initial={{ opacity: 0, x: -250 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0, ease: "easeInOut", duration: 1 }}
+          className="shadow-info h-[44px] w-[99px] text-center absolute top-2 md:-top-4 left-0 md:left-7 md:px-4 md:h-auto md:w-auto md:py-1  bg-white rounded-[10px] z-10 flex flex-col items-center justify-center lg:left-36"
+        >
           <h2 className="text-lg text-ascent md:text-3xl">+ 10%</h2>
           <p className="text-[8px] md:text-sm">taux de conversion</p>
-        </div>
-        <div className="shadow-info h-[44px] w-[99px] text-center absolute top-6 right-3 md:right-7 md:top-20 bg-white rounded-[10px] z-10 flex flex-col items-center justify-center md:px-8 md:h-auto md:w-auto md:py-1 lg:right-24 lg:top-36">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 250 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.3, ease: "easeInOut", duration: 1 }}
+          className="shadow-info h-[44px] w-[99px] text-center absolute top-6 right-3 md:right-7 md:top-20 bg-white rounded-[10px] z-10 flex flex-col items-center justify-center md:px-8 md:h-auto md:w-auto md:py-1 lg:right-24 lg:top-36"
+        >
           <h2 className="text-lg text-ascent md:text-3xl">3 écrans</h2>
           <p className="text-[8px] md:text-sm">responsive</p>
-        </div>
+        </motion.div>
         <div className="relative">
           <Image
             src={"/images/laptop.svg"}
