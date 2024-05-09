@@ -23,6 +23,7 @@ const Advise = () => {
       </div>
       <div className="max-w-80 m-auto relative -top-10 flex flex-col gap-7 md:flex-row md:max-w-none md:px-5  md:overflow-auto md:py-20 md:-top-36 lg:justify-center ">
         <AdviseCard
+          delay={0}
           rating={5}
           name={"Hugo G."}
           text={
@@ -31,6 +32,7 @@ const Advise = () => {
           containerStyle={"lg:relative lg:-top-8 "}
         />
         <AdviseCard
+          delay={0.4}
           rating={5}
           name={"Damien D."}
           text={
@@ -39,6 +41,7 @@ const Advise = () => {
           containerStyle={"lg:relative lg:top-6"}
         />
         <AdviseCard
+          delay={0.2}
           rating={5}
           name={"Moulay E."}
           text={
