@@ -1,5 +1,6 @@
+"use client";
 import React from "react";
-
+import { motion } from "framer-motion";
 const Process = () => {
   return (
     <section className="w-full mt-20 lg:mb-20">
@@ -36,7 +37,12 @@ const Process = () => {
               <span className="text-2xl md:text-4xl text-ascent">1</span>
             </div>
           </div>
-          <div className="lg:col-start-1 lg:order-1">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            className="lg:col-start-1 lg:order-1"
+          >
             <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Prise de rendez-vous
             </h3>
@@ -45,7 +51,7 @@ const Process = () => {
               moment d’échange pour mieux comprendre tes besoins et te rassurer
               pour délivré la meilleure page de vente possible.
             </p>
-          </div>
+          </motion.div>
         </div>
 
         <div className="grid   h-[300px] md:h-[310px] place-content-center lg:grid-cols-[40%_20%_40%] grid-cols-[20%_80%] md:grid-cols-[30%_70%] gap-3 md:gap-0">
@@ -56,7 +62,12 @@ const Process = () => {
             </div>
           </div>
 
-          <div className="lg:col-start-3">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.2, duration: 1.5, ease: "easeInOut" }}
+            className="lg:col-start-3"
+          >
             <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Conception
             </h3>
@@ -67,7 +78,7 @@ const Process = () => {
             <p className="md:text-lg  text-sm">
               Une fois validé, je commence la conception de ta page de vente.
             </p>
-          </div>
+          </motion.div>
         </div>
 
         <div className="grid   h-[300px] md:h-[310px] place-content-center lg:grid-cols-[40%_20%_40%] grid-cols-[20%_80%] md:grid-cols-[30%_70%] gap-3 md:gap-0">
@@ -77,7 +88,12 @@ const Process = () => {
               <span className="text-2xl md:text-4xl text-ascent">3</span>
             </div>
           </div>
-          <div className="lg:col-start-1 lg:order-1">
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.3, duration: 1.5, ease: "easeInOut" }}
+            className="lg:col-start-1 lg:order-1"
+          >
             <h3 className="font-medium w-full text-lg md:text-2xl mb-3">
               Mise en ligne
             </h3>
@@ -88,7 +104,7 @@ const Process = () => {
             <p className="md:text-lg  text-sm">
               Et c’est parti pour convertir !
             </p>
-          </div>
+          </motion.div>
         </div>
 
         {/* 3. */}
