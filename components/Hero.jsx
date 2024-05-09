@@ -19,7 +19,7 @@ const Hero = () => {
         Construisons ensemble la page de vente qui te colle à la peau.
       </p>
 
-      <ul className="mt-7 flex flex-col gap-3 mb-7 md:flex-row md:justify-around lg:px-10">
+      <ul className="mt-7 flex flex-col gap-3 mb-7 md:flex-row md:justify-around lg:px-10 lg:mt-8">
         <li className="flex flex-row gap-5 items-center">
           <Image
             src={"/images/green-check.png"}
@@ -51,14 +51,15 @@ const Hero = () => {
           <p className="font-medium">Modifications à l'infini</p>
         </li>
       </ul>
-      <div className="w-full md:flex md:flex-row md:justify-center">
+
+      <div className="w-full md:flex md:flex-row md:justify-center lg:mt-16">
         <Button
           containerStyle={
             "w-full text-sm h-[45px] md:w-auto md:px-10 md:text-lg "
           }
         />
       </div>
-      <div className="flex flex-row justify-center gap-2 mt-3">
+      <div className="flex flex-row justify-center gap-2 mt-3 ">
         <Rating name="text-feedback" value={5} readOnly precision={0.5} />
         <span className="font-medium">-</span>
         <p className="font-medium">5/5</p>
