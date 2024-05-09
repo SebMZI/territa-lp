@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <section className="mt-20 w-full lg:mb-20">
       <article className="md:grid md:grid-cols-2 md:gap-8">
-        <div className="md:flex md:flex-col md:justify-between lg:justify-start">
+        <div className="md:flex md:flex-col md:justify-between lg:justify-start mb-10 md:mb-0">
           <div className="mb-14 md:mb-auto lg:mb-14">
             <span>Template</span>
             <h2 className="text-2xl font-bold mt-2.5 lg:text-5xl">
@@ -74,7 +74,7 @@ const Features = () => {
         />
       </article>
       <article className="mt-20 md:grid md:grid-cols-2 md:gap-8 lg:mt-28">
-        <div className="order-2">
+        <div className="order-2 mb-10 md:mb-0">
           <div className="mb-14">
             <span>Responsive</span>
             <h2 className="text-2xl font-bold mt-2.5 lg:text-5xl">
