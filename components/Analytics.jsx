@@ -9,39 +9,27 @@ const Analytics = () => {
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-W5KP5B1X20"
       />
-      <Script
-        id="Google Analytics"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+      <Script id="googleanalytics">{`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-            gtag('config', 'G-W5KP5B1X20');
-                `,
-        }}
-      />
+      gtag('config', 'G-W5KP5B1X20');
+          `}</Script>
 
       {/* Cookies */}
-      <Script
-        id="Cookies"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.axeptioSettings= {
-                clientId:"663ca8fb860add1fa3b8209d",
-                cookiesVersion:"services-fr-EU",
-                };
-                
-                (function(d,s) {
-                    let t = d.getElementsByTagName(s)[0],e = d.createElement(s);
-                    e.async = true;e.src = "//static.axept.io/sdk.js";
-                    t.parentNode.insertBefore(e, t);
-                    })(document, "script");
-                `,
-        }}
-      />
+      <Script id="Cookies">{`
+      window.axeptioSettings= {
+          clientId:"663ca8fb860add1fa3b8209d",
+          cookiesVersion:"services-fr-EU",
+          };
+          
+          (function(d,s) {
+              let t = d.getElementsByTagName(s)[0],e = d.createElement(s);
+              e.async = true;e.src = "//static.axept.io/sdk.js";
+              t.parentNode.insertBefore(e, t);
+              })(document, "script");
+          `}</Script>
       {/* Clarity */}
       <Script
         id="Clarity"
