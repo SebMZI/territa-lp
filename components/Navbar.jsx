@@ -34,16 +34,16 @@ const Navbar = () => {
         `}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <li className="after:block after:content-[''] after:border-b-2 after:border-black after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
+        <li className="after:block after:content-[''] after:border-b-2 after:border-ascent after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
           <Link href={"/"}>Accueil</Link>
         </li>
-        <li className=" after:block after:content-[''] after:border-b-2 after:border-black after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
+        <li className=" after:block after:content-[''] after:border-b-2 after:border-ascent after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
           <Link href={"/#benefits"}>Bénéfices</Link>
         </li>
-        <li className="after:block after:content-[''] after:border-b-2 after:border-black after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
+        <li className="after:block after:content-[''] after:border-b-2 after:border-ascent after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
           <Link href={"/#offer"}>Offre</Link>
         </li>
-        <li className="after:block after:content-[''] after:border-b-2 after:border-black after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
+        <li className="after:block after:content-[''] after:border-b-2 after:border-ascent after:scale-0 after:transition-transform after:duration-300 after:ease-in-out hover:after:scale-100 ">
           <Link href={"/#faq"}>FAQ</Link>
         </li>
       </ul>
