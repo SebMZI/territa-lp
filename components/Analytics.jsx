@@ -1,9 +1,11 @@
 import Script from "next/script";
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 const Analytics = () => {
   return (
     <>
+      <Analytics />
       {/* Scheme.org */}
       <Script
         id="metadata"
