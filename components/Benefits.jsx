@@ -9,6 +9,7 @@ const Benefits = () => {
       </h2>
       <div className="flex flex-col gap-16 md:gap-8 mt-7 md:flex-row md:flex-wrap md:justify-center md:items-center lg:justify-between">
         <BenefitCard
+          delay={0}
           img={"/images/benefits/benefits-1.svg"}
           title={"Personnalisation"}
           text={
@@ -16,13 +17,16 @@ const Benefits = () => {
           }
         />
         <BenefitCard
+          delay={0.3}
           img={"/images/benefits/benefits-2.svg"}
           title={"Conversions"}
           text={
             "Nous rédigeons un contenu captivant et persuasif pour convertir les visiteurs."
           }
         />
+
         <BenefitCard
+          delay={0.4}
           img={"/images/benefits/benefits-3.svg"}
           title={"Tranquillité"}
           text={
