@@ -8,7 +8,7 @@ const BenefitCard = ({ img, title, text, delay }) => {
     <motion.article
       initial={{ opacity: 0, y: 60 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ delay: delay, duration: 1.5, ease: "easeOut" }}
+      transition={{ delay: delay, duration: 1, ease: "easeOut" }}
       className="flex flex-col items-center justify-between "
     >
       <Image src={img} width={100} height={100} />

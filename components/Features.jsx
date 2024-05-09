@@ -1,12 +1,20 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 import Button from "./Button";
+import { duration } from "@mui/material";
 
 const Features = () => {
   return (
     <section className="mt-20 w-full lg:mb-20">
       <article className="md:grid md:grid-cols-2 md:gap-8">
-        <div className="md:flex md:flex-col md:justify-between lg:justify-start mb-10 md:mb-0">
+        <motion.div
+          initial={{ opacity: 0, x: -250 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="md:flex md:flex-col md:justify-between lg:justify-start mb-10 md:mb-0"
+        >
           <div className="mb-14 md:mb-auto lg:mb-14">
             <span>Template</span>
             <h2 className="text-2xl font-bold mt-2.5 lg:text-5xl">
@@ -65,16 +73,27 @@ const Features = () => {
               "w-full text-sm h-[45px] md:w-auto md:px-10 md:text-lg"
             }
           />
-        </div>
-        <Image
-          src={"/images/features/feature-1.svg"}
-          width={370}
-          height={382}
-          className="md:h-full md:object-cover md:w-full max-h-[557px]"
-        />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 250 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }}
+        >
+          <Image
+            src={"/images/features/feature-1.svg"}
+            width={370}
+            height={382}
+            className="md:h-full md:object-cover md:w-full max-h-[557px]"
+          />
+        </motion.div>
       </article>
       <article className="mt-20 md:grid md:grid-cols-2 md:gap-8 lg:mt-28">
-        <div className="order-2 mb-10 md:mb-0">
+        <motion.div
+          initial={{ opacity: 0, x: 250 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut" }}
+          className="order-2 mb-10 md:mb-0"
+        >
           <div className="mb-14">
             <span>Responsive</span>
             <h2 className="text-2xl font-bold mt-2.5 lg:text-5xl">
@@ -134,13 +153,19 @@ const Features = () => {
               "w-full text-sm h-[45px] md:w-auto md:px-10 md:text-lg"
             }
           />
-        </div>
-        <Image
-          src={"/images/features/feature-2.svg"}
-          width={370}
-          height={344}
-          className="md:h-full md:object-contain md:w-full max-h-[626px]"
-        />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: -250 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut", delay: 0.2 }}
+        >
+          <Image
+            src={"/images/features/feature-2.svg"}
+            width={370}
+            height={344}
+            className="md:h-full md:object-contain md:w-full max-h-[626px]"
+          />
+        </motion.div>
       </article>
     </section>
   );
