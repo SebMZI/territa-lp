@@ -1,6 +1,8 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import Button from "./Button";
+import { motion } from "framer-motion";
 
 const Offer = () => {
   return (
@@ -9,7 +11,13 @@ const Offer = () => {
         Fais passer ton business au niveau supérieur
       </h2>
 
-      <article className="bg-white shadow-[0_0_37.8px_0_rgba(0,0,0,0.07)] rounded-[10px] px-5 py-6 flex flex-col max-w-[633px] md:w-full md:m-auto ">
+      <motion.article
+        initial={{ opacity: 0, x: 200, y: 200 }}
+        whileInView={{ opacity: 1, x: 0, y: 0 }}
+        transition={{ duration: 1.5, ease: "easeOut" }}
+        viewport={{ once: true }}
+        className="bg-white shadow-[0_0_37.8px_0_rgba(0,0,0,0.07)] rounded-[10px] px-5 py-6 flex flex-col max-w-[633px] md:w-full md:m-auto "
+      >
         <span className="font-extralight text-sm">Beta Test</span>
         <span className="text-xl font-medium line-through">900 €</span>
         <div className="flex flex-row items-center gap-5 mb-8">
@@ -110,7 +118,7 @@ const Offer = () => {
         <span className="text-sm text-center mt-4">
           Accompte de 30% , puis facturation du solde à la remise du projet
         </span>
-      </article>
+      </motion.article>
     </section>
   );
 };
