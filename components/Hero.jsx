@@ -13,11 +13,11 @@ const Hero = () => {
           pages de vente sur-mesure pour les indépendants
         </span>
       </div>
-      <h1 className="font-bold text-center text-[30px] leading-9 mt-4 mb-3 md:text-[40px] md:w-3/4 md:m-auto md:my-4 lg:text-5xl">
+      <h1 className="font-bold text-center text-[24px] leading-7 bPT:text-[30px] bPT:leading-9 mt-4 mb-3 md:text-[40px] md:w-3/4 md:m-auto md:my-4 lg:text-5xl">
         <span className="text-ascent">Booste tes conversions</span> grâce à une
         page de vente unique
       </h1>
-      <p className="text-sm text-center mt-2 font-medium md:text-base lg:text-xl md:mb-12 w-3/4 md:w-2/4  mx-auto">
+      <p className="text-sm text-center mt-2 font-medium md:text-base lg:text-xl md:mb-12 w-[85%] md:w-2/4  mx-auto">
         Spécialement conçu pour créer une image de marque 100% authentique et
         donner confiance à tes visiteurs.
       </p>
