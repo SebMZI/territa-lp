@@ -84,6 +84,7 @@ const Features = () => {
             width={370}
             height={382}
             className="md:h-full md:object-cover md:w-full max-h-[557px]"
+            alt="Image d'un wireframe: dessin d'un webdesigner pour une maquette sur-mesure"
           />
         </motion.div>
       </article>
@@ -164,6 +165,7 @@ const Features = () => {
             width={370}
             height={344}
             className="md:h-full md:object-contain md:w-full max-h-[626px]"
+            alt="Image d'un téléphone: deux téléphones montrant chacun une page de vente."
           />
         </motion.div>
       </article>

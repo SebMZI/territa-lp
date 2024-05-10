@@ -12,7 +12,6 @@ import {
   Process,
 } from "@/components";
 import Analytics from "@/components/Analytics";
-import Image from "next/image";
 
 // flex min-h-screen flex-col items-center justify-between p-24
 

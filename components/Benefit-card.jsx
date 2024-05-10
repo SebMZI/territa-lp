@@ -11,7 +11,12 @@ const BenefitCard = ({ img, title, text, delay }) => {
       transition={{ delay: delay, duration: 1, ease: "easeOut" }}
       className="flex flex-col items-center justify-between "
     >
-      <Image src={img} width={100} height={100} />
+      <Image
+        src={img}
+        width={100}
+        height={100}
+        alt={`Icon réprésentant la ${title}`}
+      />
       <div className="text-center">
         <h3 className="font-medium text-2xl ">{title}</h3>
         <p className="text-center w-72">{text}</p>

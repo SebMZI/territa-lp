@@ -19,6 +19,7 @@ const Advise = () => {
           width={339}
           height={289}
           className="mt-4 md:w-2/4 m-auto"
+          alt="Image d'avis : Une main qui tient un téléphone contenant des avis dans une main"
         />
       </div>
       <div className="max-w-80 m-auto relative -top-10 flex flex-col gap-7 md:flex-row md:max-w-none md:px-5  md:overflow-auto md:py-20 md:-top-36 lg:justify-center ">
