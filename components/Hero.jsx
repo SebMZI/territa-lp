@@ -13,15 +13,16 @@ const Hero = () => {
           pages de vente sur-mesure pour les indépendants
         </span>
       </div>
-      <h1 className="font-bold text-center text-[28px] leading-9 mt-4 mb-3 md:text-4xl lg:w-3/4 lg:m-auto lg:my-4 lg:text-5xl">
-        <span className="text-ascent">Augmente tes conversions</span> grâce à
-        une page de vente authentique et personnalisée
+      <h1 className="font-bold text-center text-[30px] leading-9 mt-4 mb-3 md:text-[40px] md:w-3/4 md:m-auto md:my-4 lg:text-5xl">
+        <span className="text-ascent">Booste tes conversions</span> grâce à une
+        page de vente unique
       </h1>
-      <p className="text-sm text-center mt-2 font-medium md:text-base lg:text-xl">
-        Construisons ensemble la page de vente qui te colle à la peau.
+      <p className="text-sm text-center mt-2 font-medium md:text-base lg:text-xl md:mb-12 w-3/4 md:w-2/4  mx-auto">
+        Spécialement conçu pour créer une image de marque 100% authentique et
+        donner confiance à tes visiteurs.
       </p>
 
-      <ul className="mt-7 flex flex-col gap-3 mb-7 md:flex-row md:justify-around lg:px-10 lg:mt-8">
+      <ul className="mt-7 flex flex-col gap-3 mb-7 md:flex-row md:justify-center md:gap-10 lg:gap-16 lg:px-10 lg:mt-8">
         <li className="flex flex-row gap-5 items-center">
           <Image
             src={"/images/green-check.png"}
@@ -54,7 +55,7 @@ const Hero = () => {
         </li>
       </ul>
 
-      <div className="w-full md:flex md:flex-row md:justify-center lg:mt-16">
+      <div className="w-full md:flex md:flex-row md:justify-center lg:mt-8">
         <Button
           containerStyle={
             "w-full text-sm h-[45px] md:w-auto md:px-10 md:text-lg "
@@ -94,8 +95,8 @@ const Hero = () => {
             className="md:w-10/12 md:m-auto"
             alt="Capture d'écran de la page de vente : Un écran d'ordinateur affichant une page de vente attrayante."
           />
-          <div className="absolute bottom-6 md:bottom-16 left-0 right-0 h-24 md:h-72 bg-gradient-to-t from-[#FAFAFA] to-[rgba(250,250,250,0)]"></div>
-          <div className="absolute bottom-0 left-0 right-0 bg-[#FAFAFA] md:h-16 h-6 "></div>
+          <div className="absolute bottom-8 md:bottom-14 left-0 right-0 h-32 md:h-80 bg-gradient-to-t from-[#FAFAFA] to-[rgba(250,250,250,0)]"></div>
+          <div className="absolute bottom-0 left-0 right-0 bg-[#FAFAFA] md:h-16 h-10 "></div>
         </div>
       </div>
     </section>

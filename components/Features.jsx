@@ -8,7 +8,7 @@ import { duration } from "@mui/material";
 const Features = () => {
   return (
     <section className="mt-20 w-full lg:mb-20">
-      <article className="md:grid md:grid-cols-2 md:gap-8">
+      <article className="md:grid md:grid-cols-2 md:gap-8 lg:gap-10">
         <motion.div
           initial={{ opacity: 0, x: -250 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -16,14 +16,14 @@ const Features = () => {
           className="md:flex md:flex-col md:justify-between lg:justify-start mb-10 md:mb-0"
         >
           <div className="mb-14 md:mb-auto lg:mb-14">
-            <span>Template</span>
+            <span>Maquette</span>
             <h2 className="text-2xl font-bold mt-2.5 lg:text-5xl">
               Fini les templates, place au sur-mesure
             </h2>
             <p className="mt-5 md:mt-2 lg:text-lg">
               Marre de voir tout le temps les mêmes pages de vente issues de
-              templates ? Nous garantissons une page 100% personnalisée à tes
-              besoins. Et tu ne sera pas comme tout le monde!
+              templates ? Je garantie une page 100% personnalisée à tes besoins.
+              Ainsi tu pourras te différencier de tout le monde!
             </p>
             <ul className="mt-7 mb-12 md:mb-8 flex flex-col gap-3">
               <li className="flex flex-row gap-5 items-center">
@@ -87,7 +87,7 @@ const Features = () => {
           />
         </motion.div>
       </article>
-      <article className="mt-20 md:grid md:grid-cols-2 md:gap-8 lg:mt-28">
+      <article className="mt-20 md:grid md:grid-cols-2 md:gap-8 lg:mt-28 lg:gap-10">
         <motion.div
           initial={{ opacity: 0, x: 250 }}
           whileInView={{ opacity: 1, x: 0 }}
